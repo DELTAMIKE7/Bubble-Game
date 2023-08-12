@@ -10,11 +10,9 @@ function bubbleMaker() {
 	var clutter = '';
 	for (let i = 0; i <= 179; i++) {
 		var num = Math.floor(Math.random() * 10);
-		clutter += `<section class="stage">
-						<figure class="ball bubble dfac">
-                            <h1>${num}</h1>
-                        </figure>
-					</section>`;
+		clutter += `   <div class="bubble">
+                        <h1>${num}</h1>
+                    </div>`;
 	}
 	document.querySelector('.panel-bottom').innerHTML = clutter;
 }

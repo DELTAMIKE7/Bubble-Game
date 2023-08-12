@@ -2,6 +2,14 @@
     font-family: gilroy;
     src: url(./GILROY-SEMIBOLD.OTF);
 }
+@font-face {
+    font-family: gilroy-black;
+    src: url(./GILROY-BLACK.OTF);
+}
+@font-face {
+    font-family: gilroy-regular;
+    src: url(./GILROY-REGULAR.OTF);
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -94,16 +102,16 @@ body {
 .heading {
 	font-size: 55px;
 }
-/* 
+
 .bubble {
 	width: 50px;
 	height: 50px;
 	background-color: rgb(121, 165, 200);
 	border-radius: 50%;
-	font-size: 22px;
+	font-size: 15px;
 	font-weight: 800;
 	cursor: pointer;
-} */
+}
 
 /* ------------ Game Over Box ---------- */
 .gameOverBox {
